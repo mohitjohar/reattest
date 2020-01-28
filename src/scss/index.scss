@@ -1,0 +1,84 @@
+$fontFamity: 'Source Serif Pro', serif;
+$fontFamity2: 'Montserrat', sans-serif;
+body {
+  font-family: $fontFamity;
+}
+h2 {
+  font-family: $fontFamity;
+  font-size: 29px;
+  font-weight: 400;
+}
+h3 {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: $fontFamity;
+}
+h5 {
+  font-size: 11.2px;
+  line-height: 13px;
+  font-weight: 400;
+  font-family: $fontFamity;
+}
+
+.heading1 {
+  color: #fff;
+}
+.bg-light-blue {
+  background-color: #c7e7e2;
+}
+ul.imgflex {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  > li {
+    padding: 0 10px;
+    font-size: 15px;
+    text-align: center;
+    > img {
+      width: 100%;
+      height: 20px;
+      object-fit: contain;
+    }
+  }
+  li.d-flex {
+    padding: 0;
+    > span {
+      padding: 0 10px;
+    }
+  }
+}
+.brand {
+  font-size: 14px;
+  font-family: $fontFamity2;
+  font-weight: 600;
+}
+.media-wrapper {
+  max-width: 589px;
+}
+.media {
+  display: flex;
+  align-items: center;
+  > div {
+    width: 100%;
+  }
+  .img {
+    width: 16%;
+    margin-right: 23px;
+  }
+  .progress-wrapper {
+    width: 100%;
+    max-width: 130px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    .progress {
+      height: 5px;
+      width: 100%;
+      margin-right: 10px;
+    }
+  }
+}
