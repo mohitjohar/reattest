@@ -1,5 +1,10 @@
-$fontFamity: 'Source Serif Pro', serif;
+$fontFamity: 'SF Pro';
 $fontFamity2: 'Montserrat', sans-serif;
+$fonturl: '/fonts/FontsFree-Net-SFProDisplay-Regular.ttf';
+@font-face {
+  font-family: 'SF Pro';
+  src: url('/fonts/FontsFree-Net-SFProDisplay-Regular.ttf');
+}
 body {
   font-family: $fontFamity;
 }
@@ -23,6 +28,7 @@ h5 {
 
 hr.divider {
   border-color: #fff;
+  margin: 26px 0;
 }
 
 .heading1 {
@@ -69,6 +75,7 @@ ul.imgflex {
 .media {
   display: flex;
   align-items: center;
+  font-size: 13px;
   > div {
     width: 100%;
   }

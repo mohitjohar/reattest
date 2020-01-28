@@ -12,7 +12,7 @@ const Media = () => {
       <div className="content">
         <h5>JoeRogan</h5>
         <h3>JRE MMA Show #75 wit</h3>
-        <p>Joe is joined by for</p>
+        <p className="mb-2">Joe is joined by for</p>
         <div className="d-flex align-items-center justify-content-between">
           <ul className="imgflex">
             <li className="d-flex">
