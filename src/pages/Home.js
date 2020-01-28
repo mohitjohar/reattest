@@ -4,9 +4,9 @@ import Media from '../components/Media';
 
 const Home = () => {
   return (
-    <div className="page">
+    <div className="page bg-gray">
       <Header />
-      <div className="container mt-3">
+      <div className="container pt-3 pb-3">
         <h2>Playlists</h2>
         <div className="media-wrapper">
           <Media />

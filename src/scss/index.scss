@@ -21,11 +21,18 @@ h5 {
   font-family: $fontFamity;
 }
 
+hr.divider {
+  border-color: #fff;
+}
+
 .heading1 {
   color: #fff;
 }
 .bg-light-blue {
   background-color: #c7e7e2;
+}
+.bg-gray {
+  background-color: #e5e5e5;
 }
 ul.imgflex {
   display: inline-flex;
